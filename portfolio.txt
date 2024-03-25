@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/87b9512129.js" crossorigin="anonymous"></script>
+ <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#custom-nav-ishaan {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+#custom-nav {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.name {
+    color: #ffffff;
+}
+
+.about-head {
+    font-size: 40px;
+    font-family: italic;
+    font-weight: bold;
+}
+
+.about-para {
+    font-family: Caveat;
+    font-size: 25px;
+}
+
+.about-img {
+    height: 50vh;
+    width: 60vh;
+    text-align: center;
+}
+
+.gal-img {
+    height: 50vh;
+    width: 60vh;
+    text-align: center;
+    padding: 5px;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-para {
+    font-size: 35px;
+    padding: 5px;
+    font-family: italic;
+    font-weight: bold;
+}
+
+.emailhead {
+    font-size: 30px;
+    font-family: Caveat;
+}
+
+.paraa {
+    font-size: 30px;
+    font-family: Caveat;
+}
+        
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" id="custom-nav-ishaan" href="#">Ishika</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" id="custom-nav" href="#Home">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link " id="custom-nav" href="#About">About</a>
+                <a class="nav-link" id="custom-nav" href="#gallery">Gallery</a>
+                <a class="nav-link" id="custom-nav" href="#contact">Contact</a>
+
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </div>
+        </div>
+    </nav>
+    <div class="homepageimg">
+        <img src="https://img.freepik.com/free-photo/happy-excited-tourist-shooting-landmarks_1262-18852.jpg?t=st=1710510315~exp=1710513915~hmac=a6bf90c5f8bc115bcf3bdff6f4aef3deb58dc42996d9295cdc6303411544ef03&w=740" />
+    </div>
+
+    <div id="Home">
+        <h1> </h1>
+    </div>
+    <div id="About">
+
+
+        <h1 class="about-head">We Live for Passion</h1>
+        <div class="row">
+            <div class="col-7">
+                <p class="about-para">Ishaan is a passionate and versatile photographer 📷 dedicated to capturing the beauty and essence of life through the lens 🔍 . With a keen eye for detail and a love for storytelling, he specializes in portrait photography, landscape photography, documentary photography, etc.].
+
+                </p>
+            </div>
+            <div class="col-5">
+                <img src="https://img.freepik.com/premium-photo/man-photographing-flowers-with-camera_1048944-9004204.jpg?w=740" class="about-img" />
+            </div>
+        </div>
+
+    </div>
+    <div id="gallery">
+        <h1 class="heading">My Gallery</h1>
+        <div class="row">
+
+            <div class="col-4">
+                <img src="https://img.freepik.com/free-photo/rock-band-guitarist-performing-repetition-recording-studio_53876-138052.jpg?t=st=1710511504~exp=1710515104~hmac=6df2624e013b26357cb627c23edfa82f9a0c19f8512593b92bcc1ad6b9d13a9b&w=740" class="gal-img" />
+            </div>
+            <div class="col-4">
+
+            </div>
+            <div class="col-4">
+                <img src="https://img.freepik.com/premium-photo/high-angle-view-cheerful-baby-girl-sitting-high-chair-home_1048944-7453491.jpg?w=360" class="gal-img" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-4">
+            <img src="https://img.freepik.com/premium-photo/close-up-rose-against-blurred-background_1048944-22899380.jpg?w=826" class="gal-img" />
+        </div>
+        <div class="col-4">
+
+        </div>
+        <div class="col-4">
+            <img src="https://img.freepik.com/premium-photo/indian-women-traditional-clothes-beach_211251-1126.jpg?w=360" class="gal-img" />
+        </div>
+    </div>
+    <div id="contact">
+        <h1 class="heading">Contact us</h1>
+        <div class="row">
+            <div class="col-4">
+                <p class="contact-para">Let's work together</p>
+
+            </div>
+            <div class="col-4">
+                <h1 class="emailhead">E-mail</h1>
+                <p class="paraa">ishika@gmail.com</p>
+
+                <h1 class="emailhead">Call us</h1>
+                <p class="paraa">+9494813278</p>>
+            </div>
+            <div class="col-4">
+                <h1 class="emailhead">Visit us</h1>
+                <p class="paraa">6-378,Jubliee hills,Hyderabad</p>
+            </div>
+        </div>
+    </div>
+   <!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/87b9512129.js" crossorigin="anonymous"></script>
+ <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#custom-nav-ishaan {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+#custom-nav {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.name {
+    color: #ffffff;
+}
+
+.about-head {
+    font-size: 40px;
+    font-family: italic;
+    font-weight: bold;
+}
+
+.about-para {
+    font-family: Caveat;
+    font-size: 25px;
+}
+
+.about-img {
+    height: 50vh;
+    width: 60vh;
+    text-align: center;
+}
+
+.gal-img {
+    height: 50vh;
+    width: 60vh;
+    text-align: center;
+    padding: 5px;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-para {
+    font-size: 35px;
+    padding: 5px;
+    font-family: italic;
+    font-weight: bold;
+}
+
+.emailhead {
+    font-size: 30px;
+    font-family: Caveat;
+}
+
+.paraa {
+    font-size: 30px;
+    font-family: Caveat;
+}
+        
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" id="custom-nav-ishaan" href="#">Ishika</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" id="custom-nav" href="#Home">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link " id="custom-nav" href="#About">About</a>
+                <a class="nav-link" id="custom-nav" href="#gallery">Gallery</a>
+                <a class="nav-link" id="custom-nav" href="#contact">Contact</a>
+
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </div>
+        </div>
+    </nav>
+    <div class="homepageimg">
+        <img src="https://img.freepik.com/free-photo/happy-excited-tourist-shooting-landmarks_1262-18852.jpg?t=st=1710510315~exp=1710513915~hmac=a6bf90c5f8bc115bcf3bdff6f4aef3deb58dc42996d9295cdc6303411544ef03&w=740" />
+    </div>
+
+    <div id="Home">
+        <h1> </h1>
+    </div>
+    <div id="About">
+
+
+        <h1 class="about-head">We Live for Passion</h1>
+        <div class="row">
+            <div class="col-7">
+                <p class="about-para">Ishaan is a passionate and versatile photographer 📷 dedicated to capturing the beauty and essence of life through the lens 🔍 . With a keen eye for detail and a love for storytelling, he specializes in portrait photography, landscape photography, documentary photography, etc.].
+
+                </p>
+            </div>
+            <div class="col-5">
+                <img src="https://img.freepik.com/premium-photo/man-photographing-flowers-with-camera_1048944-9004204.jpg?w=740" class="about-img" />
+            </div>
+        </div>
+
+    </div>
+    <div id="gallery">
+        <h1 class="heading">My Gallery</h1>
+        <div class="row">
+
+            <div class="col-4">
+                <img src="https://img.freepik.com/free-photo/rock-band-guitarist-performing-repetition-recording-studio_53876-138052.jpg?t=st=1710511504~exp=1710515104~hmac=6df2624e013b26357cb627c23edfa82f9a0c19f8512593b92bcc1ad6b9d13a9b&w=740" class="gal-img" />
+            </div>
+            <div class="col-4">
+
+            </div>
+            <div class="col-4">
+                <img src="https://img.freepik.com/premium-photo/high-angle-view-cheerful-baby-girl-sitting-high-chair-home_1048944-7453491.jpg?w=360" class="gal-img" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-4">
+            <img src="https://img.freepik.com/premium-photo/close-up-rose-against-blurred-background_1048944-22899380.jpg?w=826" class="gal-img" />
+        </div>
+        <div class="col-4">
+
+        </div>
+        <div class="col-4">
+            <img src="https://img.freepik.com/premium-photo/indian-women-traditional-clothes-beach_211251-1126.jpg?w=360" class="gal-img" />
+        </div>
+    </div>
+    <div id="contact">
+        <h1 class="heading">Contact us</h1>
+        <div class="row">
+            <div class="col-4">
+                <p class="contact-para">Let's work together</p>
+
+            </div>
+            <div class="col-4">
+                <h1 class="emailhead">E-mail</h1>
+                <p class="paraa">ishika@gmail.com</p>
+
+                <h1 class="emailhead">Call us</h1>
+                <p class="paraa">+9494813278</p>>
+            </div>
+            <div class="col-4">
+                <h1 class="emailhead">Visit us</h1>
+                <p class="paraa">6-378,Jubliee hills,Hyderabad</p>
+            </div>
+        </div>
+    </div>
